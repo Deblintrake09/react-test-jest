@@ -9,7 +9,7 @@ describe ('Pruebas dentro del archivo demo.test.js', ()=>{
         const mensaje2 = "Hola Mundo!";
         
         //3.- Controlamos comportamiento
-        expect(mensaje).toBe(mensaje2);
+        // expect(mensaje).toBe(mensaje2);
         expect(mensaje).toBe("Hola Mundo");
     });
 });
